@@ -76,6 +76,7 @@ index cd4b23617..af4a73db4 100644
 +		&lmBash,
 +		&lmBatch,
 +		&lmCaml,
++		&lmCIL,
 +		&lmCmake,
 +		&lmCOBOL,
 +		&lmCoffeeScript,
