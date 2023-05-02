@@ -337,6 +337,26 @@ static const HLKeyword highlighting_keywords_CAML[] =
 
 
 /* CMake */
+#define highlighting_lexer_CIL		SCLEX_CIL
+static const HLStyle highlighting_styles_CIL[] =
+{
+	{ SCE_CIL_DEFAULT,		"default",			FALSE },
+	{ SCE_CIL_COMMENT,		"comment",			FALSE },
+	{ SCE_CIL_COMMENTLINE,	"commentline",		FALSE },
+	{ SCE_CIL_WORD,			"keyword",			FALSE },
+	{ SCE_CIL_WORD2,		"keyword2",			FALSE },
+	{ SCE_CIL_WORD3,		"keyword3",			FALSE },
+	{ SCE_CIL_STRING,		"stringliteral",	FALSE },
+	{ SCE_CIL_LABEL,		"label",			FALSE },
+	{ SCE_CIL_OPERATOR,		"operator",			FALSE },
+	{ SCE_CIL_STRINGEOL,	"stringeol",		FALSE },
+	{ SCE_CIL_IDENTIFIER,	"identifier",		FALSE }
+};
+#define highlighting_keywords_CIL	EMPTY_KEYWORDS
+#define highlighting_properties_CIL	EMPTY_PROPERTIES
+
+
+/* CMake */
 #define highlighting_lexer_CMAKE		SCLEX_CMAKE
 static const HLStyle highlighting_styles_CMAKE[] =
 {
