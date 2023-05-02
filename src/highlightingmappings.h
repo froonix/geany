@@ -336,7 +336,7 @@ static const HLKeyword highlighting_keywords_CAML[] =
 #define highlighting_properties_CAML	EMPTY_PROPERTIES
 
 
-/* CMake */
+/* CIL */
 #define highlighting_lexer_CIL		SCLEX_CIL
 static const HLStyle highlighting_styles_CIL[] =
 {
