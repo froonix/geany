@@ -352,7 +352,12 @@ static const HLStyle highlighting_styles_CIL[] =
 	{ SCE_CIL_STRINGEOL,	"stringeol",		FALSE },
 	{ SCE_CIL_IDENTIFIER,	"identifier",		FALSE }
 };
-#define highlighting_keywords_CIL	EMPTY_KEYWORDS
+static const HLKeyword highlighting_keywords_CIL[] =
+{
+	{ 0, "keywords",	FALSE },
+	{ 1, "metadata",	FALSE },
+	{ 2, "opcode",		FALSE }
+};
 #define highlighting_properties_CIL	EMPTY_PROPERTIES
 
 
