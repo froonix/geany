@@ -1,4 +1,6 @@
+# For complete documentation of this file, please see Geany's main documentation
 [styling]
+# Edit these in the colorscheme .conf file instead
 default=default
 comment=comment
 commentline=comment_line
@@ -19,10 +21,14 @@ opcode=add add.ovf add.ovf.un and arglist beq beq.s bge bge.s bge.un bge.un.s bg
 
 [settings]
 lexer_filetype=CIL
+
+# default extension used when saving files
 extension=il
 
 [indentation]
-type=0
+#width=4
+# 0 is spaces, 1 is tabs, 2 is tab & spaces
+#type=1
 
 [build_settings]
 ## %f will be replaced by the complete filename
