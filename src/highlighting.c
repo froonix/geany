@@ -1570,7 +1570,8 @@ gboolean highlighting_is_string_style(gint lexer, gint style)
 				style == SCE_H_SINGLESTRING);
 
 		case SCLEX_CIL:
-			return (style == SCE_CIL_STRING);
+			return (style == SCE_CIL_STRING ||
+				style == SCE_CIL_STRINGEOL);
 
 		case SCLEX_CMAKE:
 			return (style == SCE_CMAKE_STRINGDQ ||
