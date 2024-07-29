@@ -346,7 +346,7 @@ static const HLStyle highlighting_styles_CIL[] =
 	{ SCE_CIL_WORD,			"keyword",			FALSE },
 	{ SCE_CIL_WORD2,		"keyword2",			FALSE },
 	{ SCE_CIL_WORD3,		"keyword3",			FALSE },
-	{ SCE_CIL_STRING,		"stringliteral",	FALSE },
+	{ SCE_CIL_STRING,		"string",			FALSE },
 	{ SCE_CIL_LABEL,		"label",			FALSE },
 	{ SCE_CIL_OPERATOR,		"operator",			FALSE },
 	{ SCE_CIL_STRINGEOL,	"stringeol",		FALSE },
