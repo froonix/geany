@@ -1879,7 +1879,7 @@ gboolean highlighting_is_comment_style(gint lexer, gint style)
 		case SCLEX_MARKDOWN:
 			/* there is no comment type in those lexers, listing here just for completeness */
 			return FALSE;
-
+			
 		case SCLEX_GDSCRIPT:
 			return (style == SCE_GD_COMMENTLINE ||
 				style == SCE_GD_COMMENTBLOCK);
