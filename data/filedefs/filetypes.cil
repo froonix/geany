@@ -4,7 +4,7 @@
 default=default
 comment=comment
 commentline=comment_line
-stringliteral=string
+string=string
 keyword=type
 keyword2=keyword_2
 keyword3=keyword_1
